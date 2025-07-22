@@ -2,9 +2,9 @@ body {
   background-color: black;
   color: white;
   font-family: Verdana, sans-serif;
-  text-align: center;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .hero h1 {
@@ -21,29 +21,34 @@ body {
   margin: 15px 0;
 }
 
-.phone {
+.phone-frame {
   max-width: 300px;
   margin: 20px auto;
+}
+
+.phone-frame video {
+  width: 100%;
+  border-radius: 30px;
 }
 
 .content h2 {
   font-size: 42px;
   font-weight: 300;
-  color: white;
   margin-top: 40px;
 }
 
 .content p {
   font-size: 21px;
   color: gray;
-  margin-top: 10px;
-  margin-bottom: 30px;
+  margin: 10px auto 30px;
+  max-width: 600px;
 }
 
 .camp-img {
   width: 80%;
   max-width: 640px;
-  margin: 0 auto 40px;
+  margin-bottom: 40px;
+  border-radius: 8px;
 }
 
 .footer .icon {
@@ -62,3 +67,4 @@ body {
   font-size: 14px;
   padding: 0 20px 10px;
 }
+
